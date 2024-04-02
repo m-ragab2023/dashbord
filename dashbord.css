@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding : 0;
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+body{
+    display: flex;
+    background-color: rgb(15, 13, 13);
+}
+/* styling menu*/
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+ .img-box{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    border:  3px solid red;
+    flex-shrink: 0;
+ }
+ .img-box img {
+     width: 100%;
+     
+ }
+.menu{
+    background-color: rgb(50, 39, 39);
+    width: 40px;
+    height:100vh ;
+    padding: 14px;
+    overflow: hidden;
+    transition: 1s;
+}
+.menu:hover{
+    width: 260px; 
+}
+ul {
+    list-style: none;
+    position: relative;
+    height: 95vh;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    margin: 9px 0;
+    padding: 10px;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+a:hover , .active{
+    background-color: gray;
+}
+.log-out {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+ul li a i {
+    
+    color: blue;
+}
+.log-out a{
+    background-color: red;
+    font-size: 25px;
+}
+.log-out a:hover {
+    background-color: gray;
+}
+/* styling content */
+.content{
+    width: 100%;
+    margin: 10px;
+}
+.title-info{
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    border-radius: 9px;
+    background-color: rgb(71, 71, 206);
+    justify-content: space-between;
+}
+/*data-info styling */
+.data-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.data-info .box{
+    flex-basis: 150px;
+    height: 150px;
+    background :rgb(32, 30, 30) ;
+    flex-grow: 1;
+    border-radius: 8px;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box:hover{
+    background-color: grey;
+}
+.box i {
+    font-size: 40px;
+}
+.data-info .box p {
+    text-align: center;
+
+}
+.data-info .box span {
+    font-size: 30px;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    border-spacing: 7px;
+}
+th,td {
+    background-color: grey;
+    text-align: center;
+    height: 50px;
+    width: 80px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+th{
+    background-color: blue;
+    font-size: 40pt;
+}
+th:hover{
+    font-size: 30pt;
+    font-weight: 700;
+}
+td span {
+    background-color:rgb(45, 109, 45);
+    width: 44px;
+    height: 44px;
+    border-radius: 6px;
+    transition: 1s;
+}
+td span:hover{
+    background-color: blue;
+    
+    width: 50px;
+    height: 50px;
+    font-size : 30pt
+}
+.mm{
+    background-color: gold;
+    color: black;
+    
+}
